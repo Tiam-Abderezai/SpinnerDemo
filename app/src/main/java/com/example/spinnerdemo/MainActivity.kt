@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         mSpinner.onItemSelectedListener = this
         ArrayAdapter.createFromResource(
             this,
-            R.array.planets_array,
+            R.array.languages_array,
             android.R.layout.simple_spinner_item
         ).also { adapter ->
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
